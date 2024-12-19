@@ -1,0 +1,21 @@
+.mainTextBox {
+  margin: var(--large2-spacing) 0;
+}
+.header {
+  font-size: var(--large-size);
+  color: var(--white);
+  margin-bottom: var(--small-spacing);
+  font-weight: var(--high-bold);
+}
+.location {
+  font-size: var(--normal-size);
+  color: var(--green);
+  font-weight: var(--medium-bold);
+  text-align: center;
+}
+.desc {
+  font-size: var(--normal-size);
+  color: var(--white);
+  margin-bottom: var(--medium1-spacing);
+  text-align: center;
+}

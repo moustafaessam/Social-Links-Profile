@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Colors */
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+  /* Spacing */
+  --large1-spacing: 3.5rem;
+  --large2-spacing: 3.2rem;
+  --medium1-spacing: 2.4rem;
+  --medium2-spacing: 1.6rem;
+  --small-spacing: 0.7rem;
+  /* Font Size */
+  --normal-size: 1.4rem;
+  --medium-size: 1.52rem;
+  --large-size: 2.4rem;
+  /* Font weight */
+  --normal-bold: 400;
+  --medium-bold: 600;
+  --high-bold: 700;
+  /* Border radius */
+  --main-radius: 1.2rem;
+  --linkBox-radius: 0.6rem;
+  --img-radius: 50%;
+}
+
+body {
+  background-color: var(--grey-900);
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 57.5%;
+  }
+}

@@ -1,0 +1,5 @@
+.img {
+  max-width: 8.8rem;
+  max-height: 8.8rem;
+  border-radius: var(--img-radius);
+}

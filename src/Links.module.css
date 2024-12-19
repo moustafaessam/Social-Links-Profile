@@ -1,0 +1,24 @@
+.linkBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--medium2-spacing);
+  width: 100%;
+  color: var(--white);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: var(--linkBox-radius);
+  background-color: var(--grey-700);
+  height: 4.4rem;
+  font-size: var(--normal-size);
+  cursor: pointer;
+}
+
+.links:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
